@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 2201dbd7239873b4b8e933b310aeb298
+timeCreated: 1505034555
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Castle
+    100002: Empty
+    100004: //RootNode
+    100006: IslandGround
+    100008: Palm_000
+    100010: Palm_001
+    100012: Palm_002
+    100014: Palm_003
+    100016: Palm_005
+    100018: Palm_006
+    100020: Palm_007
+    100022: Palm_008
+    100024: Plant
+    100026: Plant_001
+    100028: Plant_002
+    100030: Plant_003
+    100032: Plant_004
+    100034: Plant_005
+    100036: Sea
+    100038: Barrel_Cylinder_000
+    100040: Barrel_Cylinder_001
+    100042: Barrel_Cylinder_002
+    100044: Barrel_Cylinder_003
+    100046: Barrel_Cylinder_004
+    400000: Castle
+    400002: Empty
+    400004: //RootNode
+    400006: IslandGround
+    400008: Palm_000
+    400010: Palm_001
+    400012: Palm_002
+    400014: Palm_003
+    400016: Palm_005
+    400018: Palm_006
+    400020: Palm_007
+    400022: Palm_008
+    400024: Plant
+    400026: Plant_001
+    400028: Plant_002
+    400030: Plant_003
+    400032: Plant_004
+    400034: Plant_005
+    400036: Sea
+    400038: Barrel_Cylinder_000
+    400040: Barrel_Cylinder_001
+    400042: Barrel_Cylinder_002
+    400044: Barrel_Cylinder_003
+    400046: Barrel_Cylinder_004
+    2300000: Castle
+    2300002: IslandGround
+    2300004: Palm_000
+    2300006: Palm_001
+    2300008: Palm_002
+    2300010: Palm_003
+    2300012: Palm_005
+    2300014: Palm_006
+    2300016: Palm_007
+    2300018: Palm_008
+    2300020: Plant
+    2300022: Plant_001
+    2300024: Plant_002
+    2300026: Plant_003
+    2300028: Plant_004
+    2300030: Plant_005
+    2300032: Sea
+    2300034: Barrel_Cylinder_000
+    2300036: Barrel_Cylinder_001
+    2300038: Barrel_Cylinder_002
+    2300040: Barrel_Cylinder_003
+    2300042: Barrel_Cylinder_004
+    3300000: Castle
+    3300002: IslandGround
+    3300004: Palm_000
+    3300006: Palm_001
+    3300008: Palm_002
+    3300010: Palm_003
+    3300012: Palm_005
+    3300014: Palm_006
+    3300016: Palm_007
+    3300018: Palm_008
+    3300020: Plant
+    3300022: Plant_001
+    3300024: Plant_002
+    3300026: Plant_003
+    3300028: Plant_004
+    3300030: Plant_005
+    3300032: Sea
+    3300034: Barrel_Cylinder_000
+    3300036: Barrel_Cylinder_001
+    3300038: Barrel_Cylinder_002
+    3300040: Barrel_Cylinder_003
+    3300042: Barrel_Cylinder_004
+    4300000: Plant_005
+    4300002: Plant_004
+    4300004: Plant_003
+    4300006: Plant_002
+    4300008: Plant_001
+    4300010: Palm_008
+    4300012: Palm_007
+    4300014: Palm_006
+    4300016: Palm_005
+    4300018: Palm_003
+    4300020: Palm_002
+    4300022: Palm_000
+    4300024: Palm_001
+    4300026: Plant
+    4300028: Castle
+    4300030: Sea
+    4300032: IslandGround
+    4300034: Barrel_Cylinder_004
+    4300036: Barrel_Cylinder_003
+    4300038: Barrel_Cylinder_002
+    4300040: Barrel_Cylinder_000
+    4300042: Barrel_Cylinder_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
