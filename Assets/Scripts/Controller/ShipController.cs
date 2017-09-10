@@ -52,14 +52,17 @@ public class ShipController : MonoBehaviour {
         transform.eulerAngles = new Vector3(0, position / 2 / Mathf.PI * 360 + (directionForward ? 180 : 0), 0) + new Vector3(transform.eulerAngles.x, 90, transform.eulerAngles.z);
     }
 
-
     void OnTriggerEnter(Collider collider)
     {
-        switch(collider.tag)
+        switch (collider.tag)
         {
             case "Cannonball":
                 Destroy(collider.gameObject);
                 hit = true;
+                break;
+
+            case "Coin":
+                Destroy(collider.gameObject);
                 break;
         }
     }

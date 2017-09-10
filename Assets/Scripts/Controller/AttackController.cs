@@ -12,11 +12,13 @@ public class AttackController : MonoBehaviour {
 
     private const int cannonCount = 8;
 
-	void Start () {
+	void Start ()
+    {
+        ship = target.GetComponent<ShipController>();
     }
 	
 	void Update () {
-		if (Random.value < Time.deltaTime * averageShotsPerSecond)
+		if (!ship.hit && Random.value < Time.deltaTime * averageShotsPerSecond)
         {
             FireShot();
         }
@@ -24,7 +26,6 @@ public class AttackController : MonoBehaviour {
     
     void FireShot()
     {
-        ship = target.GetComponent<ShipController>();
         // retrieve target position in rad
         targetPosition = ship.position;
         bool targetForward = ship.directionForward;
