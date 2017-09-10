@@ -41,10 +41,26 @@ public class ShipController : MonoBehaviour {
     {
         float deltaRad = deltaTime * speed;
         position += deltaRad * (directionForward ? 1 : -1); // add or subtract depending on the direction
-        position %= (float)(2 * Mathf.PI); // crop position to maximum circumferece of two pi
+        position %= 2 * Mathf.PI; // crop position to maximum circumferece of two pi
+        if (position < 0)
+        {
+            position += 2 * Mathf.PI;
+        }
 
         // update position and rotation
         transform.position = radius * new Vector3(Mathf.Sin(position), 0, Mathf.Cos(position)) + new Vector3(0, transform.position.y, 0);
         transform.eulerAngles = new Vector3(0, position / 2 / Mathf.PI * 360 + (directionForward ? 180 : 0), 0) + new Vector3(transform.eulerAngles.x, 90, transform.eulerAngles.z);
+    }
+
+
+    void OnTriggerEnter(Collider collider)
+    {
+        switch(collider.tag)
+        {
+            case "Cannonball":
+                Destroy(collider.gameObject);
+                hit = true;
+                break;
+        }
     }
 }

@@ -29,6 +29,15 @@ ModelImporter:
     100042: Barrel_Cylinder_002
     100044: Barrel_Cylinder_003
     100046: Barrel_Cylinder_004
+    100048: Cannon_Cylinder_000
+    100050: Cannon_Cylinder_001
+    100052: Cannon_Cylinder_002
+    100054: Cannon_Cylinder_003
+    100056: Cannon_Cylinder_004
+    100058: Cannon_Cylinder_005
+    100060: Cannon_Cylinder_006
+    100062: Cannon_Cylinder_007
+    100064: Plane
     400000: Castle
     400002: Empty
     400004: //RootNode
@@ -53,6 +62,15 @@ ModelImporter:
     400042: Barrel_Cylinder_002
     400044: Barrel_Cylinder_003
     400046: Barrel_Cylinder_004
+    400048: Cannon_Cylinder_000
+    400050: Cannon_Cylinder_001
+    400052: Cannon_Cylinder_002
+    400054: Cannon_Cylinder_003
+    400056: Cannon_Cylinder_004
+    400058: Cannon_Cylinder_005
+    400060: Cannon_Cylinder_006
+    400062: Cannon_Cylinder_007
+    400064: Plane
     2300000: Castle
     2300002: IslandGround
     2300004: Palm_000
@@ -75,6 +93,15 @@ ModelImporter:
     2300038: Barrel_Cylinder_002
     2300040: Barrel_Cylinder_003
     2300042: Barrel_Cylinder_004
+    2300044: Cannon_Cylinder_000
+    2300046: Cannon_Cylinder_001
+    2300048: Cannon_Cylinder_002
+    2300050: Cannon_Cylinder_003
+    2300052: Cannon_Cylinder_004
+    2300054: Cannon_Cylinder_005
+    2300056: Cannon_Cylinder_006
+    2300058: Cannon_Cylinder_007
+    2300060: Plane
     3300000: Castle
     3300002: IslandGround
     3300004: Palm_000
@@ -97,6 +124,15 @@ ModelImporter:
     3300038: Barrel_Cylinder_002
     3300040: Barrel_Cylinder_003
     3300042: Barrel_Cylinder_004
+    3300044: Cannon_Cylinder_000
+    3300046: Cannon_Cylinder_001
+    3300048: Cannon_Cylinder_002
+    3300050: Cannon_Cylinder_003
+    3300052: Cannon_Cylinder_004
+    3300054: Cannon_Cylinder_005
+    3300056: Cannon_Cylinder_006
+    3300058: Cannon_Cylinder_007
+    3300060: Plane
     4300000: Plant_005
     4300002: Plant_004
     4300004: Plant_003
@@ -119,6 +155,15 @@ ModelImporter:
     4300038: Barrel_Cylinder_002
     4300040: Barrel_Cylinder_000
     4300042: Barrel_Cylinder_001
+    4300044: Cannon_Cylinder_007
+    4300046: Cannon_Cylinder_006
+    4300048: Cannon_Cylinder_005
+    4300050: Cannon_Cylinder_004
+    4300052: Cannon_Cylinder_003
+    4300054: Cannon_Cylinder_002
+    4300056: Cannon_Cylinder_000
+    4300058: Cannon_Cylinder_001
+    4300060: Plane
     7400000: Default Take
     9500000: //RootNode
   materials:

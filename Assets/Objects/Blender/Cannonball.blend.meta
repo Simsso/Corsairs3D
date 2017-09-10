@@ -1,29 +1,15 @@
 fileFormatVersion: 2
-guid: 5e8ddf97086be3b44bbdadd777a094c8
-timeCreated: 1505041979
+guid: 9a5c3d00b4b8c634a961ba7092310668
+timeCreated: 1505043053
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cannon
-    100004: Cylinder
-    100006: Cylinder_001
     400000: //RootNode
-    400002: Cannon
-    400004: Cylinder
-    400006: Cylinder_001
-    2300000: Cannon
-    2300002: Cylinder
-    2300004: Cylinder_001
-    2300006: //RootNode
-    3300000: Cannon
-    3300002: Cylinder
-    3300004: Cylinder_001
-    3300006: //RootNode
-    4300000: Cannon
-    4300002: Cylinder_001
-    4300004: Cylinder
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cannonball
     7400000: Default Take
     9500000: //RootNode
   materials:
