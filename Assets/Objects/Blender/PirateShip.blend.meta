@@ -28,6 +28,15 @@ ModelImporter:
     100040: Empty
     100042: Torus
     100044: Torus_003
+    100046: Cannon_Cylinder_000
+    100048: Cannon_Cylinder_001
+    100050: Cannon_Cylinder_002
+    100052: Cannon_Cylinder_003
+    100054: Cannon_Cylinder_004
+    100056: Cannon_Cylinder_005
+    100058: Cannon_Cylinder_006
+    100060: Cannon_Cylinder_007
+    100062: SteeringWheel
     400000: Barrel
     400002: Barrel_001
     400004: Barrel_002
@@ -51,6 +60,15 @@ ModelImporter:
     400040: Empty
     400042: Torus
     400044: Torus_003
+    400046: Cannon_Cylinder_000
+    400048: Cannon_Cylinder_001
+    400050: Cannon_Cylinder_002
+    400052: Cannon_Cylinder_003
+    400054: Cannon_Cylinder_004
+    400056: Cannon_Cylinder_005
+    400058: Cannon_Cylinder_006
+    400060: Cannon_Cylinder_007
+    400062: SteeringWheel
     2300000: Barrel
     2300002: Barrel_001
     2300004: Barrel_002
@@ -72,6 +90,15 @@ ModelImporter:
     2300036: Cylinder_005
     2300038: Torus
     2300040: Torus_003
+    2300042: Cannon_Cylinder_000
+    2300044: Cannon_Cylinder_001
+    2300046: Cannon_Cylinder_002
+    2300048: Cannon_Cylinder_003
+    2300050: Cannon_Cylinder_004
+    2300052: Cannon_Cylinder_005
+    2300054: Cannon_Cylinder_006
+    2300056: Cannon_Cylinder_007
+    2300058: SteeringWheel
     3300000: Barrel
     3300002: Barrel_001
     3300004: Barrel_002
@@ -93,6 +120,15 @@ ModelImporter:
     3300036: Cylinder_005
     3300038: Torus
     3300040: Torus_003
+    3300042: Cannon_Cylinder_000
+    3300044: Cannon_Cylinder_001
+    3300046: Cannon_Cylinder_002
+    3300048: Cannon_Cylinder_003
+    3300050: Cannon_Cylinder_004
+    3300052: Cannon_Cylinder_005
+    3300054: Cannon_Cylinder_006
+    3300056: Cannon_Cylinder_007
+    3300058: SteeringWheel
     4300000: Handrail_001
     4300002: Handrail
     4300004: Barrel_005
@@ -114,6 +150,15 @@ ModelImporter:
     4300036: Torus
     4300038: Cylinder_004
     4300040: Cylinder_002
+    4300042: Cannon_Cylinder_004
+    4300044: Cannon_Cylinder_001
+    4300046: Cannon_Cylinder_007
+    4300048: Cannon_Cylinder_006
+    4300050: Cannon_Cylinder_005
+    4300052: Cannon_Cylinder_002
+    4300054: Cannon_Cylinder_000
+    4300056: Cannon_Cylinder_003
+    4300058: SteeringWheel
     7400000: Default Take
     9500000: //RootNode
   materials:
