@@ -10,7 +10,7 @@ public class CoinInit : MonoBehaviour {
     public float height;
     public Vector3 rotation;
 
-	void Start () {
+	public void Start () {
         if (count == 0) return;
 
         for (float rad = 0; rad < Mathf.PI * 2; rad += Mathf.PI * 2 / count)
@@ -20,9 +20,5 @@ public class CoinInit : MonoBehaviour {
             newCoin.transform.eulerAngles = rotation;
             newCoin.transform.parent = this.gameObject.transform;
         }
-	}
-	
-	void Update () {
-		
 	}
 }
