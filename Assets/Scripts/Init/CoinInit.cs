@@ -10,7 +10,7 @@ public class CoinInit : MonoBehaviour {
     public float height;
     public Vector3 rotation;
 
-	public void Start () {
+	void Start () {
         if (count == 0) return;
 
         for (float rad = 0; rad < Mathf.PI * 2; rad += Mathf.PI * 2 / count)

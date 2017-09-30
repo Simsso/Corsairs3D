@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShipController : MonoBehaviour {
     public bool directionForward; // true = forward, false = backward
@@ -7,14 +8,30 @@ public class ShipController : MonoBehaviour {
     public float radius; // radius in game units
     public bool hit;
 
-	void Start () {
-		
-	}
-	
+    private uint coinsCollected = 0; // coins collected in the current level
+
+    public uint CoinsCollected
+    {
+        get
+        {
+            return coinsCollected;
+        }
+    }
+
+    public void ResetCoinsCollected()
+    {
+        coinsCollected = 0;
+    }
+
 	void FixedUpdate() {
 		if (hit)
         {
             // ship has been hit
+            if (DirectionChangeRequested())
+            {
+                // restart
+                SceneManager.LoadScene("MainScene");
+            }
             return;
         }
 
@@ -59,11 +76,18 @@ public class ShipController : MonoBehaviour {
             case "Cannonball":
                 Destroy(collider.gameObject);
                 hit = true;
+                SinkShip();
                 break;
 
             case "Coin":
                 Destroy(collider.gameObject);
+                coinsCollected++;
                 break;
         }
+    }
+
+    void SinkShip()
+    {
+        this.GetComponent<Rigidbody>().useGravity = true;
     }
 }

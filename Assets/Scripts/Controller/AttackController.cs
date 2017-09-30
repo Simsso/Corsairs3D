@@ -46,4 +46,10 @@ public class AttackController : MonoBehaviour {
         newCannonball.GetComponent<Rigidbody>().AddForce(force);
         newCannonball.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.value, Random.value, Random.value));
     }
+
+    public void IncreaseAggression()
+    {
+        averageShotsPerSecond *= 1.2f;
+        fireArea *= 1.1f;
+    }
 }
