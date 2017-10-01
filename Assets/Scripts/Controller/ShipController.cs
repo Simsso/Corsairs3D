@@ -23,16 +23,11 @@ public class ShipController : MonoBehaviour {
         coinsCollected = 0;
     }
 
-	void FixedUpdate() {
-		if (hit)
+	void Update() {
+		if (hit && DirectionChangeRequested())
         {
-            // ship has been hit
-            if (DirectionChangeRequested())
-            {
-                // restart
-                SceneManager.LoadScene("MainScene");
-            }
-            return;
+            // restart
+            SceneManager.LoadScene("MainScene");
         }
 
         // direction change
@@ -40,9 +35,15 @@ public class ShipController : MonoBehaviour {
         {
             directionForward = !directionForward;
         }
-
-        UpdateLocation(Time.deltaTime);
 	}
+
+    void FixedUpdate()
+    {
+        if (!hit)
+        {
+            UpdateLocation(Time.deltaTime);
+        }
+    }
 
     private bool DirectionChangeRequested()
     {
